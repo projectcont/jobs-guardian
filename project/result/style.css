@@ -1,0 +1,28 @@
+
+html * {font-family:  Helvetica, Arial,  sans-serif;}
+table tr td {width:100%;border:1px solid brown }
+table tr td {width:50%; border:1px solid brown}
+
+div.center {width:1000px; margin:auto}
+
+div.flexdiv
+{ border:0px solid brown ;
+  width:80%; display: flex;
+  flex-direction: row;
+  height: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-content: start;
+  align-items: start;
+
+ }
+
+ h3 {text-align:center}
+ 
+div.center div.narrow {width:90%; margin:auto; border:0px solid yellow }
+div.flexdiv  div.optionkey  {width:28%;border:0px solid brown;martin-left:10px}
+div.flexdiv  div.optionvalue {width:70%;border:0px solid brown}
+
+div.flexdiv *  {font-size:17px; line-height:18px; margin:5px 0}
+div.citation {font-size:17px; line-height:23px;  margin:auto}
